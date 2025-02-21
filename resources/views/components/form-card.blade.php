@@ -4,7 +4,7 @@
         homepage | bell
     </x-slot:title>
 
-    <form action="" method="post">
+    {{-- <form action="" method="post">
         <div class="flex flex-col">
             @php
                 $fields = [
@@ -31,11 +31,15 @@
     </form>
 
 
+
+
+    @section('credit')
+        <p>this is my copyright</p>
+    @endsection --}}
+
     <x-slot:footer>
         <p>this is my footer</p>
     </x-slot>
 
-    @section('credit')
-        <p>this is my copyright</p>
-    @endsection
+
 </x-layout>
